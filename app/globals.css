@@ -76,6 +76,10 @@ body::before {
   border-bottom: 1px solid var(--border);
   background: rgba(10,10,10,0.92);
   backdrop-filter: blur(12px);
+  transition: transform 0.35s var(--ease);
+}
+.nav--hidden {
+  transform: translateY(-100%);
 }
 
 .nav-logo {
