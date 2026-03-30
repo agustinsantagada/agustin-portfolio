@@ -607,3 +607,13 @@ body::before {
   .home-grid { grid-template-columns: 1fr; }
   .about-cols { grid-template-columns: 1fr; }
 }
+
+/* ── Mobile image bleed ── */
+@media (max-width: 768px) {
+  .work-section-full,
+  .work-section-grid,
+  .work-cover {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
