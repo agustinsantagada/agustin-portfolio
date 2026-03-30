@@ -72,14 +72,18 @@ body::before {
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
+  padding-top: env(safe-area-inset-top);
   z-index: 100;
   border-bottom: 1px solid var(--border);
-  background: rgba(10,10,10,0.92);
-  backdrop-filter: blur(12px);
-  transition: transform 0.35s var(--ease);
+  background: rgba(10,10,10,0.96);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
 }
 .nav--hidden {
-  transform: translateY(-100%);
+  opacity: 0;
+  transform: translateY(-8px);
+  pointer-events: none;
 }
 
 .nav-logo {
@@ -418,7 +422,7 @@ body::before {
 
 /* ── Work detail ── */
 .work-detail {
-  max-width: 900px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 60px 40px 0;
 }
