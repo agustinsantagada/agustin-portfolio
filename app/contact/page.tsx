@@ -9,11 +9,14 @@ export default function Contact() {
     setStatus('sending')
     const form = e.currentTarget
     const data = new FormData(form)
-    const res = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+
+    // Replace YOUR_FORM_ID with your Formspree form ID (free at formspree.io)
+    const res = await fetch('https://formspree.io/f/mkopreoe', {
       method: 'POST',
       body: data,
       headers: { Accept: 'application/json' },
     })
+
     if (res.ok) {
       setStatus('sent')
       form.reset()
@@ -25,7 +28,10 @@ export default function Contact() {
   return (
     <div className="contact-wrap">
       <h1 className="anim">Let&apos;s work<br />together.</h1>
-      <p className="contact-sub anim anim-d1">If you have a project in mind, fill out the form below.</p>
+      <p className="contact-sub anim anim-d1">
+        If you have a project in mind, fill out the form below.
+      </p>
+
       {status === 'sent' ? (
         <p style={{ fontFamily: 'var(--font-mono)', color: 'var(--accent)', fontSize: '0.85rem' }}>
           ✓ Message sent. I&apos;ll get back to you soon.
@@ -53,7 +59,7 @@ export default function Contact() {
           </button>
           {status === 'error' && (
             <p style={{ fontFamily: 'var(--font-mono)', color: '#e87c6e', fontSize: '0.75rem' }}>
-              Something went wrong. Email me at agustinsantagada@gmail.com
+              Something went wrong. Email me directly at agustinsantagada@gmail.com
             </p>
           )}
         </form>
