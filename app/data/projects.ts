@@ -71,6 +71,7 @@ export const projects: Project[] = [
           { type: 'images-full', images: ['/images/Google Growth Summit/Google-10.png'] },
           { type: 'images-grid', images: ['/images/Google Growth Summit/Google-15.png', '/images/Google Growth Summit/Google-18.png'] },
           { type: 'images-grid', images: ['/images/Google Growth Summit/Google-16.png', '/images/Google Growth Summit/Google-17.png'] },
+          { type: 'images-grid', images: ['/images/Google Growth Summit/Google-16.png', '/images/Google Growth Summit/Google-17.png'] },
         ]
       },
     ],
