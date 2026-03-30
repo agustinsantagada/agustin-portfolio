@@ -21,7 +21,7 @@ export const projects: Project[] = [
     year: '2023',
     role: 'Art Direction, Motion Design',
     description: 'Motion reel showcasing 2023 work across broadcast, branding and digital media.',
-    videoUrl: 'https://player.vimeo.com/video/ID',  // opcional
+    videoUrl: 'https://vimeo.com/1178413778',  // opcional
   },
   {
     slug: 'google-growth-summit',
