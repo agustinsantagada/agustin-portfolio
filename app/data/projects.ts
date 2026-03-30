@@ -2,8 +2,14 @@ export interface Project {
   slug: string
   title: string
   category: string
-  image: string
-  url?: string
+  image: string          // imagen del grid (portada)
+  description?: string   // texto del proyecto
+  role?: string          // tu rol
+  year?: string          // año
+  client?: string        // cliente
+  images?: string[]      // imágenes extra (URLs)
+  videoUrl?: string      // embed de Vimeo/YouTube
+  link?: string          // link externo (Behance, etc.)
 }
 
 export const projects: Project[] = [
