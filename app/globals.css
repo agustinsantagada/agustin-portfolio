@@ -517,6 +517,14 @@ body::before {
 .work-section {
   margin-bottom: 4px;
 }
+.work-section-text {
+  font-size: 0.95rem;
+  color: var(--fg-2);
+  line-height: 1.8;
+  font-weight: 300;
+  max-width: 680px;
+  margin: 20px 0 24px;
+}
 .work-section-title {
   font-family: var(--font-mono);
   font-size: 0.65rem;
