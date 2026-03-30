@@ -54,8 +54,8 @@ export const projects: Project[] = [
       {
         title: 'Typography',
         blocks: [
-          { type: 'images-grid', images: ['/images/Google Growth Summit/Google-06.png'] },
-          { type: 'images-grid', images: ['/images/Google Growth Summit/Google-07.png'] },
+          { type: 'images-full', images: ['/images/Google Growth Summit/Google-06.png'] },
+          { type: 'images-full', images: ['/images/Google Growth Summit/Google-07.png'] },
 
         ]
       },
