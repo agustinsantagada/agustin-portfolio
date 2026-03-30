@@ -101,7 +101,7 @@ export default function WorkDetail({ params }: Props) {
       )}
 
       {(project.description || project.link) && (
-        <div className="work-body" style={{ padding: '48px 40px 0', maxWidth: '680px' }}>
+        <div className="work-body" >
           {project.description && <p className="work-description">{project.description}</p>}
           {project.link && (
             <a href={project.link} target="_blank" rel="noopener noreferrer" className="work-external-link">Ver proyecto completo →</a>
