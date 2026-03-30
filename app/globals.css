@@ -67,12 +67,11 @@ body::before {
   top: 0;
   left: 0;
   right: 0;
-  height: var(--nav-h);
+  height: calc(var(--nav-h) + env(safe-area-inset-top));
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 40px;
-  padding-top: env(safe-area-inset-top);
+  padding: env(safe-area-inset-top) 40px 0;
   z-index: 100;
   border-bottom: 1px solid var(--border);
   background: rgba(10,10,10,0.96);
@@ -127,7 +126,7 @@ body::before {
 
 /* ── Page wrapper ── */
 .page {
-  padding-top: var(--nav-h);
+  padding-top: calc(var(--nav-h) + env(safe-area-inset-top));
   min-height: 100vh;
 }
 
