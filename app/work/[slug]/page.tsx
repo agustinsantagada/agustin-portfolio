@@ -62,6 +62,17 @@ function Section({ section, projectTitle, sIdx }: { section: ProjectSection, pro
             </div>
           )
         }
+        if (block.type === 'images-grid-4') {
+          return (
+            <div key={bIdx} className="work-section-grid-4">
+              {block.images?.map((src, i) => (
+                <FadeDiv key={i} className="work-img-grid-4">
+                  <Image src={src} alt={`${projectTitle} ${sIdx}-${bIdx}-${i}`} fill sizes="25vw" style={{ objectFit: 'cover' }} />
+                </FadeDiv>
+              ))}
+            </div>
+          )
+        }
         return null
       })}
     </div>

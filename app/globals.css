@@ -617,3 +617,26 @@ body::before {
     margin-right: -20px;
   }
 }
+
+.work-section-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+}
+.work-img-grid-4 {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1/1;
+  background: var(--bg-2);
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.9s var(--ease), transform 0.9s var(--ease);
+}
+.work-img-grid-4.visible { opacity: 1; transform: translateY(0); }
+@media (max-width: 768px) {
+  .work-section-grid-4 { grid-template-columns: repeat(2, 1fr); }
+  .work-section-grid-4 {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}

@@ -1,4 +1,4 @@
-export type BlockType = 'text' | 'images-full' | 'images-grid'
+export type BlockType = 'text' | 'images-full' | 'images-grid' | 'images-grid-4'
 
 export interface Block {
   type: BlockType
@@ -54,9 +54,7 @@ export const projects: Project[] = [
       {
         title: 'Typography',
         blocks: [
-          { type: 'images-full', images: ['/images/Google Growth Summit/Google-06.png'] },
-          { type: 'images-full', images: ['/images/Google Growth Summit/Google-07.png'] },
-
+          { type: 'images-grid', images: ['/images/Google Growth Summit/Google-06.png', '/images/Google Growth Summit/Google-07.png'] },
         ]
       },
       {
@@ -70,7 +68,6 @@ export const projects: Project[] = [
         blocks: [
           { type: 'images-full', images: ['/images/Google Growth Summit/Google-10.png'] },
           { type: 'images-grid', images: ['/images/Google Growth Summit/Google-15.png', '/images/Google Growth Summit/Google-18.png'] },
-          { type: 'images-grid', images: ['/images/Google Growth Summit/Google-16.png', '/images/Google Growth Summit/Google-17.png'] },
           { type: 'images-grid', images: ['/images/Google Growth Summit/Google-16.png', '/images/Google Growth Summit/Google-17.png'] },
         ]
       },
