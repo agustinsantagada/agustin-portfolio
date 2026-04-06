@@ -9,7 +9,10 @@ const clients = ['Fox', 'Disney', 'Mtv', 'NatGeo', 'Warner', 'Google', 'Mercadol
 const services = ['Art Direction', 'Design', 'Marketing', 'E-Commerce']
 
 const experience = [
-  { years: '2020 – Today', company: 'Ht-Shirts / Etsy / Shopify', role: 'Co-Owner' },
+  { years: '2025 – Parser', company: 'Parser', role: 'Art Director' },
+  { years: '2025 – 2025', company: 'Secuoya Content Group', role: 'Art Director' },
+  { years: '2025 – 2025', company: 'DeoVR', role: 'Art Director' },
+  { years: '2020 – 2024', company: 'Ht-Shirts / Etsy / Shopify', role: 'Co-Owner' },
   { years: '2020 – 2022', company: 'The Walt Disney Company', role: 'Lead Visual Designer' },
   { years: '2017 – 2020', company: 'NatGeo', role: 'Lead Visual Designer' },
   { years: '2014 – 2017', company: 'Fox Sports', role: 'Manager Designer' },
