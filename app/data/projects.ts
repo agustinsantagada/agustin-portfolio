@@ -40,7 +40,7 @@ export const projects: Project[] = [
     slug: 'google-growth-summit',
     title: 'Google | Growth Summit',
     category: 'Motion',
-    image: '/images/Google Growth Summit/Google_avatar.jpg',
+    image: '/images/Google-Growth-Summit/Google_avatar.jpg',
     year: '2022',
     client: 'Google',
     role: 'Art Direction, Design',
@@ -48,27 +48,27 @@ export const projects: Project[] = [
     sections: [
       {
         blocks: [
-          { type: 'images-full', images: ['/images/Google Growth Summit/Google-02.png'] },
+          { type: 'images-full', images: ['/images/Google-Growth-Summit/Google-02.png'] },
         ]
       },
       {
         title: 'Typography',
         blocks: [
-          { type: 'images-grid', images: ['/images/Google Growth Summit/Google-06.png', '/images/Google Growth Summit/Google-07.png'] },
+          { type: 'images-grid', images: ['/images/Google-Growth-Summit/Google-06.png', '/images/Google-Growth-Summit/Google-07.png'] },
         ]
       },
       {
         title: 'Colors',
         blocks: [
-          { type: 'images-grid', images: ['/images/Google Growth Summit/Google-08.png', '/images/Google Growth Summit/Google-09.png'] },
+          { type: 'images-grid', images: ['/images/Google-Growth-Summit/Google-08.png', '/images/Google-Growth-Summit/Google-09.png'] },
         ]
       },
       {
         title: 'Applications',
         blocks: [
-          { type: 'images-full', images: ['/images/Google Growth Summit/Google-10.png'] },
-          { type: 'images-grid', images: ['/images/Google Growth Summit/Google-15.png', '/images/Google Growth Summit/Google-18.png'] },
-          { type: 'images-grid', images: ['/images/Google Growth Summit/Google-16.png', '/images/Google Growth Summit/Google-17.png'] },
+          { type: 'images-full', images: ['/images/Google-Growth-Summit/Google-10.png'] },
+          { type: 'images-grid', images: ['/images/Google-Growth-Summit/Google-15.png', '/images/Google-Growth-Summit/Google-18.png'] },
+          { type: 'images-grid', images: ['/images/Google-Growth-Summit/Google-16.png', '/images/Google-Growth-Summit/Google-17.png'] },
         ]
       },
     ],
@@ -77,7 +77,7 @@ export const projects: Project[] = [
     slug: 'natgeo-kids-xmas',
     title: 'NatGeo Kids | Xmas',
     category: 'Motion',
-    image: '/images/NatGeo Christmas/NatGeo Kids Navidad-04.png',
+    image: '/images/NatGeo-Christmas/NatGeo_Kids_Navidad-04.png',
     year: '2020',
     client: 'NatGeo',
     role: 'Lead Visual Designer',
@@ -86,35 +86,35 @@ export const projects: Project[] = [
       {
         blocks: [
           { type: 'text', text: 'The visual elements were not only used in this ID, they were a 360 campaign which included social networks, banners and offline art. With this comprehensive approach, the NatGeo Kids Christmas promotion effectively captured the imagination of viewers and ignited their excitement for the holiday season.' },
-          { type: 'images-full', images: ['/images/NatGeo Christmas/NatGeo Kids Navidad-03.png'] },
+          { type: 'images-full', images: ['/images/NatGeo-Christmas/NatGeo_Kids_Navidad-03.png'] },
         ]
       },
       {
         title: 'Typography',
         blocks: [
-          { type: 'images-grid', images: ['/images/NatGeo Christmas/NatGeo Kids Navidad-05.png', '/images/NatGeo Christmas/NatGeo Kids Navidad-06.png'] },
+          { type: 'images-grid', images: ['/images/NatGeo-Christmas/NatGeo_Kids_Navidad-05.png', '/images/NatGeo-Christmas/NatGeo_Kids_Navidad-06.png'] },
         ]
       },
       {
         title: 'Colors',
         blocks: [
-          { type: 'images-grid', images: ['/images/NatGeo Christmas/NatGeo Kids Navidad-08.png', '/images/NatGeo Christmas/NatGeo Kids Navidad-09.png'] },
-          { type: 'images-grid', images: ['/images/NatGeo Christmas/NatGeo Kids Navidad-10.png', '/images/NatGeo Christmas/NatGeo Kids Navidad-11.png'] },
-          { type: 'images-grid', images: ['/images/NatGeo Christmas/NatGeo Kids Navidad-12.png', '/images/NatGeo Christmas/NatGeo Kids Navidad-13.png'] },
+          { type: 'images-grid', images: ['/images/NatGeo-Christmas/NatGeo_Kids_Navidad-08.png', '/images/NatGeo-Christmas/NatGeo_Kids_Navidad-09.png'] },
+          { type: 'images-grid', images: ['/images/NatGeo-Christmas/NatGeo_Kids_Navidad-10.png', '/images/NatGeo-Christmas/NatGeo_Kids_Navidad-11.png'] },
+          { type: 'images-grid', images: ['/images/NatGeo-Christmas/NatGeo_Kids_Navidad-12.png', '/images/NatGeo-Christmas/NatGeo_Kids_Navidad-13.png'] },
         ]
       },
       {
         title: 'Style',
         blocks: [
-          { type: 'images-full', images: ['/images/NatGeo Christmas/NatGeo Kids Navidad-04.png'] },
+          { type: 'images-full', images: ['/images/NatGeo-Christmas/NatGeo_Kids_Navidad-04.png'] },
         ]
       },
       {
         title: 'Renders',
         blocks: [
-          { type: 'images-full', images: ['/images/NatGeo Christmas/ESC_A_0442.png'] },
-          { type: 'images-grid', images: ['/images/NatGeo Christmas/NatGeo Kids Navidad-14.png', '/images/NatGeo Christmas/NatGeo Kids Navidad-15.png'] },
-          { type: 'images-grid', images: ['/images/NatGeo Christmas/NatGeo Kids Navidad-16.png', '/images/NatGeo Christmas/NatGeo Kids Navidad-07.png'] },
+          { type: 'images-full', images: ['/images/NatGeo-Christmas/ESC_A_0442.png'] },
+          { type: 'images-grid', images: ['/images/NatGeo-Christmas/NatGeo_Kids_Navidad-14.png', '/images/NatGeo-Christmas/NatGeo_Kids_Navidad-15.png'] },
+          { type: 'images-grid', images: ['/images/NatGeo-Christmas/NatGeo_Kids_Navidad-16.png', '/images/NatGeo-Christmas/NatGeo_Kids_Navidad-07.png'] },
         ]
       },
     ],
@@ -123,7 +123,7 @@ export const projects: Project[] = [
     slug: 'disney-channel-logo',
     title: 'Disney Channel | Logo',
     category: 'Branding',
-    image: '/images/Disney Channel Logos/DisneyChannel_Logos-02.png',
+    image: '/images/Disney-Channel-Logos/DisneyChannel_Logos-02.png',
     year: '2021',
     client: 'Disney',
     role: 'Lead Visual Designer',
@@ -132,24 +132,24 @@ export const projects: Project[] = [
       {
         blocks: [
           { type: 'text', text: 'The color palette takes a departure from the traditional Disney colors, embracing a range of vibrant fluorescent hues. The background is an electrifying neon blue, representing innovation and excitement. The word "Disney" is rendered in a striking neon green, symbolizing growth and fresh perspectives.' },
-          { type: 'images-full', images: ['/images/Disney Channel Logos/DisneyChannel_Logos_1-02.png'] },
+          { type: 'images-full', images: ['/images/Disney-Channel-Logos/DisneyChannel_Logos_1-02.png'] },
         ]
       },
       {
         title: 'Problems',
         blocks: [
           { type: 'text', text: 'Over time, design trends change, and a logo that once felt fresh and modern might start to look outdated. An old logo could have lost its visual appeal and failed to resonate with modern audiences. If Disney Channel underwent rebranding efforts, the old logo might not have aligned with these changes.' },
-          { type: 'images-grid', images: ['/images/Disney Channel Logos/DisneyChannel_Logos-03.png', '/images/Disney Channel Logos/DisneyChannel_Logos-04.png'] },
+          { type: 'images-grid', images: ['/images/Disney-Channel-Logos/DisneyChannel_Logos-03.png', '/images/Disney-Channel-Logos/DisneyChannel_Logos-04.png'] },
         ]
       },
       {
         title: 'Logos',
         blocks: [
           { type: 'text', text: 'The proposed Disney Channel logo redesign with new and fluorescent colors injects the brand with a burst of contemporary flair. The vibrant hues and dynamic typography capture the essence of a channel that\'s always on the cutting edge of entertainment.' },
-          { type: 'images-grid', images: ['/images/Disney Channel Logos/DisneyChannel_Logos-05.png', '/images/Disney Channel Logos/DisneyChannel_Logos-06.png'] },
-          { type: 'images-grid', images: ['/images/Disney Channel Logos/DisneyChannel_Logos-07.png', '/images/Disney Channel Logos/DisneyChannel_Logos-08.png'] },
-          { type: 'images-full', images: ['/images/Disney Channel Logos/DisneyChannel_Logos-09.png'] },
-          { type: 'images-full', images: ['/images/Disney Channel Logos/LOGO DISNEY CHANNEL-02.png'] },
+          { type: 'images-grid', images: ['/images/Disney-Channel-Logos/DisneyChannel_Logos-05.png', '/images/Disney-Channel-Logos/DisneyChannel_Logos-06.png'] },
+          { type: 'images-grid', images: ['/images/Disney-Channel-Logos/DisneyChannel_Logos-07.png', '/images/Disney-Channel-Logos/DisneyChannel_Logos-08.png'] },
+          { type: 'images-full', images: ['/images/Disney-Channel-Logos/DisneyChannel_Logos-09.png'] },
+          { type: 'images-full', images: ['/images/Disney-Channel-Logos/LOGO DISNEY CHANNEL-02.png'] },
         ]
       },
     ],
@@ -207,48 +207,48 @@ export const projects: Project[] = [
     slug: 'mareth-restaurant',
     title: 'Mareth | Restaurant',
     category: 'Branding',
-    image: '/images/Mareth/Mareth-0.png',
+    image: '/images/mareth/Mareth-0.png',
     year: '2022',
     role: 'Art Direction, Branding',
     description: 'The new brand identity for Mareth Fish Boutique encapsulates the essence of Greek coastal cuisine and the mesmerizing allure of Mykonos.',
     sections: [
       {
         blocks: [
-          { type: 'images-full', images: ['/images/Mareth/Mareth-02.png'] },
+          { type: 'images-full', images: ['/images/mareth/Mareth-02.png'] },
         ]
       },
       {
         title: 'Typography',
         blocks: [
           { type: 'text', text: 'The typography is a harmonious blend of classic and modern elements. A sophisticated serif font represents the elegance of the restaurant, while a contemporary sans-serif font adds a touch of freshness. The combination captures both the restaurant\'s commitment to tradition and its innovative approach to fish cuisine.' },
-          { type: 'images-full', images: ['/images/Mareth/Mareth-03.png'] },
+          { type: 'images-full', images: ['/images/mareth/Mareth-03.png'] },
         ]
       },
       {
         title: 'Colors',
         blocks: [
           { type: 'text', text: 'The color palette draws inspiration from the vivid colors of the Mykonos landscape. Crisp whites, shades of blue reminiscent of the sea and sky, and soft sandy tones reflect the natural beauty of the island. Accents of warm coral and gold highlight the rich flavors and culinary experiences that await.' },
-          { type: 'images-grid', images: ['/images/Mareth/Mareth-04.png', '/images/Mareth/Mareth-06.png'] },
+          { type: 'images-grid', images: ['/images/mareth/Mareth-04.png', '/images/mareth/Mareth-06.png'] },
         ]
       },
       {
         title: 'Imagery',
         blocks: [
           { type: 'text', text: 'The brand imagery showcases breathtaking seascapes, tantalizing seafood platters, and moments of conviviality among diners. These images capture the ambiance of Mareth Fish Boutique, from the sun-drenched terraces to the intimate interiors.' },
-          { type: 'images-grid', images: ['/images/Mareth/Mareth-08.png', '/images/Mareth/Mareth-07.png'] },
-          { type: 'images-grid', images: ['/images/Mareth/Mareth-10.png', '/images/Mareth/Mareth-09.png'] },
+          { type: 'images-grid', images: ['/images/mareth/Mareth-08.png', '/images/mareth/Mareth-07.png'] },
+          { type: 'images-grid', images: ['/images/mareth/Mareth-10.png', '/images/mareth/Mareth-09.png'] },
         ]
       },
       {
         title: 'Menu Design',
         blocks: [
           { type: 'text', text: 'Menus are designed with a blend of artistic creativity and practicality. Inspired by nautical charts, the menu layout features subtle seafaring motifs and elegant typography, making it a visual delight while offering easy navigation of the delectable offerings.' },
-          { type: 'images-grid', images: ['/images/Mareth/Mareth-11.png', '/images/Mareth/Mareth-12.png'] },
-          { type: 'images-grid', images: ['/images/Mareth/Mareth-13.png', '/images/Mareth/Mareth-14.png'] },
-          { type: 'images-grid', images: ['/images/Mareth/Mareth-15.png', '/images/Mareth/Mareth-17.png'] },
-          { type: 'images-grid', images: ['/images/Mareth/Mareth-18.png', '/images/Mareth/Mareth-19.png'] },
-          { type: 'images-grid', images: ['/images/Mareth/Mareth-20.png', '/images/Mareth/Mareth-21.png'] },
-          { type: 'images-full', images: ['/images/Mareth/Mareth-22.png'] },
+          { type: 'images-grid', images: ['/images/mareth/Mareth-11.png', '/images/mareth/Mareth-12.png'] },
+          { type: 'images-grid', images: ['/images/mareth/Mareth-13.png', '/images/mareth/Mareth-14.png'] },
+          { type: 'images-grid', images: ['/images/mareth/Mareth-15.png', '/images/mareth/Mareth-17.png'] },
+          { type: 'images-grid', images: ['/images/mareth/Mareth-18.png', '/images/mareth/Mareth-19.png'] },
+          { type: 'images-grid', images: ['/images/mareth/Mareth-20.png', '/images/mareth/Mareth-21.png'] },
+          { type: 'images-full', images: ['/images/mareth/Mareth-22.png'] },
         ]
       },
     ],
@@ -304,7 +304,7 @@ export const projects: Project[] = [
     slug: 'nike-sb-green-power',
     title: 'Nike SB | Green Power',
     category: 'Branding',
-    image: '/images/Nike SB GreenPower/Nike_Greenpower_behance-05.png',
+    image: '/images/Nike-SB-GreenPower/Nike_Greenpower_behance-05.png',
     year: '2020',
     client: 'Nike',
     role: 'Art Direction, Design',
@@ -314,16 +314,16 @@ export const projects: Project[] = [
         title: 'Typography',
         blocks: [
           { type: 'text', text: 'The typography is minimalistic, allowing the imagery to take center stage. A sleek, modern font is used for a succinct tagline that complements the concept, emphasizing the fusion of style and eco-consciousness.' },
-          { type: 'images-full', images: ['/images/Nike SB GreenPower/Nike_Greenpower_behance-04.png'] },
+          { type: 'images-full', images: ['/images/Nike-SB-GreenPower/Nike_Greenpower_behance-04.png'] },
         ]
       },
       {
         title: 'Colors',
         blocks: [
           { type: 'text', text: 'The color palette predominantly features shades of green, representing growth, renewal, and sustainability. The white background accentuates the shoe\'s design details and provides contrast to the vibrant green hues.' },
-          { type: 'images-grid', images: ['/images/Nike SB GreenPower/Nike_Greenpower_behance-05.png', '/images/Nike SB GreenPower/Nike_Greenpower_behance-06.png'] },
-          { type: 'images-grid', images: ['/images/Nike SB GreenPower/Nike_Greenpower_behance-07.png', '/images/Nike SB GreenPower/Nike_Greenpower_behance-08.png'] },
-          { type: 'images-full', images: ['/images/Nike SB GreenPower/Nike_Greenpower_behance-09.png'] },
+          { type: 'images-grid', images: ['/images/Nike-SB-GreenPower/Nike_Greenpower_behance-05.png', '/images/Nike-SB-GreenPower/Nike_Greenpower_behance-06.png'] },
+          { type: 'images-grid', images: ['/images/Nike-SB-GreenPower/Nike_Greenpower_behance-07.png', '/images/Nike-SB-GreenPower/Nike_Greenpower_behance-08.png'] },
+          { type: 'images-full', images: ['/images/Nike-SB-GreenPower/Nike_Greenpower_behance-09.png'] },
         ]
       },
     ],
@@ -332,30 +332,30 @@ export const projects: Project[] = [
     slug: 'gsw-champions-22',
     title: 'GSW | Champions 22',
     category: 'Motion',
-    image: '/images/GSW Champions 22/Curry-04.png',
+    image: '/images/GSW-Champions-22/Curry-04.png',
     year: '2022',
     role: 'Art Direction, Motion Design',
     description: 'The graphic proposal for celebrating the Golden State Warriors\' victory as the 2022 champions is a visual feast that captures the team\'s triumphant journey to glory.',
     sections: [
       {
         blocks: [
-          { type: 'images-grid', images: ['/images/GSW Champions 22/Curry-02.png', '/images/GSW Champions 22/Curry-03.png'] },
+          { type: 'images-grid', images: ['/images/GSW-Champions-22/Curry-02.png', '/images/GSW-Champions-22/Curry-03.png'] },
         ]
       },
       {
         title: 'Symbols',
         blocks: [
           { type: 'text', text: 'At the heart of the design, the iconic Golden State Warriors logo stands tall, glistening in a radiant gold hue. The logo is surrounded by a burst of celebratory confetti, representing the joy and excitement of their victory.' },
-          { type: 'images-grid', images: ['/images/GSW Champions 22/Curry-14.png', '/images/GSW Champions 22/Curry-15.png'] },
-          { type: 'images-full', images: ['/images/GSW Champions 22/Curry-05.png'] },
+          { type: 'images-grid', images: ['/images/GSW-Champions-22/Curry-14.png', '/images/GSW-Champions-22/Curry-15.png'] },
+          { type: 'images-full', images: ['/images/GSW-Champions-22/Curry-05.png'] },
         ]
       },
       {
         title: 'Identity',
         blocks: [
           { type: 'text', text: 'Incorporated into the design are action shots of key moments from the championship games, capturing the intensity and emotion of the players\' performances. The images showcase both teamwork and individual brilliance.' },
-          { type: 'images-grid', images: ['/images/GSW Champions 22/Curry-10.png', '/images/GSW Champions 22/Curry-11.png'] },
-          { type: 'images-grid', images: ['/images/GSW Champions 22/Curry-12.png', '/images/GSW Champions 22/Curry-13.png'] },
+          { type: 'images-grid', images: ['/images/GSW-Champions-22/Curry-10.png', '/images/GSW-Champions-22/Curry-11.png'] },
+          { type: 'images-grid', images: ['/images/GSW-Champions-22/Curry-12.png', '/images/GSW-Champions-22/Curry-13.png'] },
         ]
       },
     ],
@@ -431,7 +431,7 @@ export const projects: Project[] = [
     slug: 'nike-by-you',
     title: 'Nike | by You',
     category: 'Branding',
-    image: '/images/Nike SB Levitate/Nike_livitate_avatar.png',
+    image: '/images/Nike-SB-Levitate/Nike_livitate_avatar.png',
     year: '2021',
     client: 'Nike',
     role: 'Art Direction, Design',
@@ -439,16 +439,16 @@ export const projects: Project[] = [
     sections: [
       {
         blocks: [
-          { type: 'images-full', images: ['/images/Nike SB Levitate/Nike_SB_Behance-01.png'] },
+          { type: 'images-full', images: ['/images/Nike-SB-Levitate/Nike_SB_Behance-01.png'] },
         ]
       },
       {
         title: 'Colors',
         blocks: [
           { type: 'text', text: 'The color palette is vibrant and diverse, showcasing the multitude of color choices available through the customization process. The shoe\'s hues represent the wearer\'s unique taste and personality.' },
-          { type: 'images-grid', images: ['/images/Nike SB Levitate/Nike_SB_Behance-03.png', '/images/Nike SB Levitate/Nike_SB_Behance-04.png'] },
-          { type: 'images-grid', images: ['/images/Nike SB Levitate/Nike_SB_Behance-05.png', '/images/Nike SB Levitate/Nike_SB_Behance-06.png'] },
-          { type: 'images-grid', images: ['/images/Nike SB Levitate/Nike_SB_Behance-07.png', '/images/Nike SB Levitate/Nike_SB_Flight.png'] },
+          { type: 'images-grid', images: ['/images/Nike-SB-Levitate/Nike_SB_Behance-03.png', '/images/Nike-SB-Levitate/Nike_SB_Behance-04.png'] },
+          { type: 'images-grid', images: ['/images/Nike-SB-Levitate/Nike_SB_Behance-05.png', '/images/Nike-SB-Levitate/Nike_SB_Behance-06.png'] },
+          { type: 'images-grid', images: ['/images/Nike-SB-Levitate/Nike_SB_Behance-07.png', '/images/Nike-SB-Levitate/Nike_SB_Flight.png'] },
         ]
       },
     ],
@@ -457,7 +457,7 @@ export const projects: Project[] = [
     slug: 'lia-aerospace-styleguide',
     title: 'LIA Aerospace | Styleguide',
     category: 'Branding',
-    image: '/images/Lia/LIA AVATAR.png',
+    image: '/images/Lia/LIA_AVATAR.png',
     year: '2022',
     role: 'Art Direction, Branding',
     description: 'This brand encapsulates the spirit of innovation, dedication, and forward-thinking that defines this Argentine startup. LIA solutions is poised to soar to new heights, revolutionizing the aerospace industry with its cutting-edge approach.',
@@ -476,7 +476,7 @@ export const projects: Project[] = [
     slug: 'kikely-brand-styleguide',
     title: 'Kikely Brand | Styleguide',
     category: 'Branding',
-    image: '/images/Kikely/Sistema Grafico_4_TAPA.png',
+    image: '/images/Kikely/Sistema_Grafico_4_TAPA.png',
     year: '2021',
     role: 'Art Direction, Branding',
     description: 'Nordik Living is a fresh and exciting furniture brand by Kikely, dedicated to crafting furniture pieces that seamlessly blend modern design aesthetics with the cozy and inviting charm of Nordic influences.',
@@ -484,7 +484,7 @@ export const projects: Project[] = [
       {
         blocks: [
           { type: 'text', text: 'Our mission was to create a new stunning brand and elegant design to wrap the 360 campaigns and customer journey until the new bed, chair or table is in their home.' },
-          { type: 'images-full', images: ['/images/Kikely/Sistema Grafico_4_LOGO PPAL.png'] },
+          { type: 'images-full', images: ['/images/Kikely/Sistema_Grafico_4_LOGO_PPAL.png'] },
         ]
       },
       {
@@ -497,7 +497,7 @@ export const projects: Project[] = [
         title: 'Miscellaneous',
         blocks: [
           { type: 'images-grid', images: ['/images/Kikely/Kikely-04.png', '/images/Kikely/Kikely-06.png'] },
-          { type: 'images-full', images: ['/images/Kikely/GARAGE SALE O CATEGORIA MESAS.jpg'] },
+          { type: 'images-full', images: ['/images/Kikely/GARAGE_SALE_O_CATEGORIA_MESAS.jpg'] },
         ]
       },
       {
@@ -536,28 +536,28 @@ export const projects: Project[] = [
     slug: 'copa-libertadores',
     title: 'Copa Libertadores & Sudamericana | Pitch',
     category: 'Motion',
-    image: '/images/Copa Libertadores/Copas-01.png',
+    image: '/images/Copa-Libertadores/Copas-01.png',
     year: '2017',
     role: 'Art Direction, Motion Design',
     description: 'The Copa Libertadores and Sudamericana tournaments hold a special place in the hearts of football fans across South America and beyond. To keep these tournaments at the forefront of the global football stage, a refresh of their logos and graphics is in order.',
     sections: [
       {
         blocks: [
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-02.png', '/images/Copa Libertadores/Copas-03.png'] },
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-04.png', '/images/Copa Libertadores/Copas-05.png'] },
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-06.png', '/images/Copa Libertadores/Copas-07.png'] },
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-08.png', '/images/Copa Libertadores/Copas-09.png'] },
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-10.png', '/images/Copa Libertadores/Copas-11.png'] },
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-12.png', '/images/Copa Libertadores/Copas-13.png'] },
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-14.png', '/images/Copa Libertadores/Copas-15.png'] },
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-16.png', '/images/Copa Libertadores/Copas-17.png'] },
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-18.png', '/images/Copa Libertadores/Copas-19.png'] },
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-20.png', '/images/Copa Libertadores/Copas-21.png'] },
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-22.png', '/images/Copa Libertadores/Copas-23.png'] },
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-24.png', '/images/Copa Libertadores/Copas-25.png'] },
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-26.png', '/images/Copa Libertadores/Copas-27.png'] },
-          { type: 'images-grid', images: ['/images/Copa Libertadores/Copas-28.png', '/images/Copa Libertadores/Copas-29.png'] },
-          { type: 'images-full', images: ['/images/Copa Libertadores/Copas-30.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-02.png', '/images/Copa-Libertadores/Copas-03.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-04.png', '/images/Copa-Libertadores/Copas-05.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-06.png', '/images/Copa-Libertadores/Copas-07.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-08.png', '/images/Copa-Libertadores/Copas-09.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-10.png', '/images/Copa-Libertadores/Copas-11.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-12.png', '/images/Copa-Libertadores/Copas-13.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-14.png', '/images/Copa-Libertadores/Copas-15.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-16.png', '/images/Copa-Libertadores/Copas-17.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-18.png', '/images/Copa-Libertadores/Copas-19.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-20.png', '/images/Copa-Libertadores/Copas-21.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-22.png', '/images/Copa-Libertadores/Copas-23.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-24.png', '/images/Copa-Libertadores/Copas-25.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-26.png', '/images/Copa-Libertadores/Copas-27.png'] },
+          { type: 'images-grid', images: ['/images/Copa-Libertadores/Copas-28.png', '/images/Copa-Libertadores/Copas-29.png'] },
+          { type: 'images-full', images: ['/images/Copa-Libertadores/Copas-30.png'] },
         ]
       },
     ],
@@ -566,7 +566,7 @@ export const projects: Project[] = [
     slug: 'simply-camera-ux-ui',
     title: 'Simply Camera | UX/UI',
     category: 'UX/UI',
-    image: '/images/Simple Camera/Simple Camera_AVATAR-11.png',
+    image: '/images/Simple-Camera/Simple_Camera_AVATAR-11.png',
     year: '2022',
     role: 'UX/UI Design',
     description: 'Introducing Simply Camera, a revolutionary camera app designed to bring back the essence of real photography in the digital age. In a world flooded with filters and complex features, Simply Camera is a breath of fresh air.',
@@ -587,29 +587,29 @@ export const projects: Project[] = [
         title: 'Colors',
         blocks: [
           { type: 'text', text: 'The color palette reflects its minimalistic and authentic approach. Clean whites and calming neutrals dominate the interface, creating a soothing canvas. Subtle accents of muted blues and greys add a touch of modernity and sophistication.' },
-          { type: 'images-full', images: ['/images/Simple Camera/Simple Camera-07.png'] },
+          { type: 'images-full', images: ['/images/Simple-Camera/Simple_Camera-07.png'] },
         ]
       },
       {
         title: 'User Flow',
         blocks: [
           { type: 'text', text: 'Capture: Users tap the central "Capture" button. Image Review: After capturing, users are shown the result. Save or Share: Users can save the photo or share it directly to social media or messaging apps.' },
-          { type: 'images-full', images: ['/images/Simple Camera/Simple Camera-04.png'] },
+          { type: 'images-full', images: ['/images/Simple-Camera/Simple_Camera-04.png'] },
         ]
       },
       {
         title: 'Wireframe',
         blocks: [
-          { type: 'images-full', images: ['/images/Simple Camera/Simple Camera-05.png'] },
+          { type: 'images-full', images: ['/images/Simple-Camera/Simple_Camera-05.png'] },
         ]
       },
       {
         title: 'UI Kit',
         blocks: [
           { type: 'text', text: 'The Simply Camera UI Kit is a thoughtfully designed collection of user interface elements that perfectly encapsulate the essence of the app — simplicity, authenticity, and efficiency.' },
-          { type: 'images-full', images: ['/images/Simple Camera/Simple Camera-06.png'] },
-          { type: 'images-grid', images: ['/images/Simple Camera/Simple Camera-08.png', '/images/Simple Camera/Simple Camera-09.png'] },
-          { type: 'images-full', images: ['/images/Simple Camera/Simple Camera-10.png'] },
+          { type: 'images-full', images: ['/images/Simple-Camera/Simple_Camera-06.png'] },
+          { type: 'images-grid', images: ['/images/Simple-Camera/Simple_Camera-08.png', '/images/Simple-Camera/Simple_Camera-09.png'] },
+          { type: 'images-full', images: ['/images/Simple-Camera/Simple_Camera-10.png'] },
         ]
       },
     ],
@@ -706,7 +706,7 @@ export const projects: Project[] = [
     slug: 'disney-junior-logo',
     title: 'Disney Junior | Logo',
     category: 'Branding',
-    image: '/images/DisneyJunior Logos/DisneyJunior_AVATAR_Mesa de trabajo 1.png',
+    image: '/images/DisneyJunior-Logos/DisneyJunior_AVATAR_Mesa_de_trabajo_1.png',
     year: '2021',
     client: 'Disney',
     role: 'Lead Visual Designer',
@@ -716,17 +716,17 @@ export const projects: Project[] = [
         title: 'Why We Need to Change',
         blocks: [
           { type: 'text', text: 'The previous logo might have been too intricate with its fine details. This complexity could make it less adaptable to different mediums and sizes. The color palette might not have been as vibrant and attention-grabbing as needed for a children\'s brand.' },
-          { type: 'images-full', images: ['/images/DisneyJunior Logos/DisneyJunior_Logos-02.png'] },
+          { type: 'images-full', images: ['/images/DisneyJunior-Logos/DisneyJunior_Logos-02.png'] },
         ]
       },
       {
         title: 'Logos',
         blocks: [
           { type: 'text', text: 'The proposed Disney Junior logo redesign captures the essence of childhood wonder and creativity through its inviting colors, approachable font, and subtle Disney reference. A delightful update that appeals to both young audiences and their nostalgic parents.' },
-          { type: 'images-grid', images: ['/images/DisneyJunior Logos/DisneyJunior_Logos-03.png', '/images/DisneyJunior Logos/DisneyJunior_Logos-04.png'] },
-          { type: 'images-grid', images: ['/images/DisneyJunior Logos/DisneyJunior_Logos-05.png', '/images/DisneyJunior Logos/DisneyJunior_Logos-06.png'] },
-          { type: 'images-grid', images: ['/images/DisneyJunior Logos/DisneyJunior_Logos-07.png', '/images/DisneyJunior Logos/DisneyJunior_Logos-08.png'] },
-          { type: 'images-full', images: ['/images/DisneyJunior Logos/DisneyJunior_Logos-09.png'] },
+          { type: 'images-grid', images: ['/images/DisneyJunior-Logos/DisneyJunior_Logos-03.png', '/images/DisneyJunior-Logos/DisneyJunior_Logos-04.png'] },
+          { type: 'images-grid', images: ['/images/DisneyJunior-Logos/DisneyJunior_Logos-05.png', '/images/DisneyJunior-Logos/DisneyJunior_Logos-06.png'] },
+          { type: 'images-grid', images: ['/images/DisneyJunior-Logos/DisneyJunior_Logos-07.png', '/images/DisneyJunior-Logos/DisneyJunior_Logos-08.png'] },
+          { type: 'images-full', images: ['/images/DisneyJunior-Logos/DisneyJunior_Logos-09.png'] },
         ]
       },
     ],
@@ -805,25 +805,25 @@ export const projects: Project[] = [
     slug: 'activity-kids',
     title: 'Activity Kids | Brand',
     category: 'Branding',
-    image: '/images/Activity Kids/ACTIVITY KIDS_ABAD-Mesa de trabajo 1.png',
+    image: '/images/Activity-Kids/ACTIVITY_KIDS_ABAD-Mesa de trabajo 1.png',
     year: '2022',
     role: 'Art Direction, Branding',
     description: 'Complete brand identity for Activity Kids, a children\'s activity and entertainment brand. A vibrant and playful visual system designed to connect with kids and parents alike.',
     sections: [
       {
         blocks: [
-          { type: 'images-grid', images: ['/images/Activity Kids/ACTIVITY KIDS_ABAD-01.png', '/images/Activity Kids/ACTIVITY KIDS_ABAD-02.png'] },
-          { type: 'images-grid', images: ['/images/Activity Kids/ACTIVITY KIDS_ABAD-03.png', '/images/Activity Kids/ACTIVITY KIDS_ABAD-04.png'] },
-          { type: 'images-grid', images: ['/images/Activity Kids/ACTIVITY KIDS_ABAD-05.png', '/images/Activity Kids/ACTIVITY KIDS_ABAD-06.png'] },
-          { type: 'images-grid', images: ['/images/Activity Kids/ACTIVITY KIDS_ABAD-07.png', '/images/Activity Kids/ACTIVITY KIDS_ABAD-08.png'] },
-          { type: 'images-grid', images: ['/images/Activity Kids/ACTIVITY KIDS_ABAD-09.png', '/images/Activity Kids/ACTIVITY KIDS_ABAD-10.png'] },
-          { type: 'images-grid', images: ['/images/Activity Kids/ACTIVITY KIDS_ABAD-11.png', '/images/Activity Kids/ACTIVITY KIDS_ABAD-12.png'] },
-          { type: 'images-grid', images: ['/images/Activity Kids/ACTIVITY KIDS_ABAD-13.png', '/images/Activity Kids/ACTIVITY KIDS_ABAD-14.png'] },
-          { type: 'images-grid', images: ['/images/Activity Kids/ACTIVITY KIDS_ABAD-15.png', '/images/Activity Kids/ACTIVITY KIDS_ABAD-16.png'] },
-          { type: 'images-grid', images: ['/images/Activity Kids/ACTIVITY KIDS_ABAD-17.png', '/images/Activity Kids/ACTIVITY KIDS_ABAD-18.png'] },
-          { type: 'images-grid', images: ['/images/Activity Kids/ACTIVITY KIDS_ABAD-19.png', '/images/Activity Kids/ACTIVITY KIDS_ABAD-20.png'] },
-          { type: 'images-grid', images: ['/images/Activity Kids/ACTIVITY KIDS_ABAD-21.png', '/images/Activity Kids/ACTIVITY KIDS_ABAD-22.png'] },
-          { type: 'images-full', images: ['/images/Activity Kids/ACTIVITY KIDS-06.png'] },
+          { type: 'images-grid', images: ['/images/Activity-Kids/ACTIVITY_KIDS_ABAD-01.png', '/images/Activity-Kids/ACTIVITY_KIDS_ABAD-02.png'] },
+          { type: 'images-grid', images: ['/images/Activity-Kids/ACTIVITY_KIDS_ABAD-03.png', '/images/Activity-Kids/ACTIVITY_KIDS_ABAD-04.png'] },
+          { type: 'images-grid', images: ['/images/Activity-Kids/ACTIVITY_KIDS_ABAD-05.png', '/images/Activity-Kids/ACTIVITY_KIDS_ABAD-06.png'] },
+          { type: 'images-grid', images: ['/images/Activity-Kids/ACTIVITY_KIDS_ABAD-07.png', '/images/Activity-Kids/ACTIVITY_KIDS_ABAD-08.png'] },
+          { type: 'images-grid', images: ['/images/Activity-Kids/ACTIVITY_KIDS_ABAD-09.png', '/images/Activity-Kids/ACTIVITY_KIDS_ABAD-10.png'] },
+          { type: 'images-grid', images: ['/images/Activity-Kids/ACTIVITY_KIDS_ABAD-11.png', '/images/Activity-Kids/ACTIVITY_KIDS_ABAD-12.png'] },
+          { type: 'images-grid', images: ['/images/Activity-Kids/ACTIVITY_KIDS_ABAD-13.png', '/images/Activity-Kids/ACTIVITY_KIDS_ABAD-14.png'] },
+          { type: 'images-grid', images: ['/images/Activity-Kids/ACTIVITY_KIDS_ABAD-15.png', '/images/Activity-Kids/ACTIVITY_KIDS_ABAD-16.png'] },
+          { type: 'images-grid', images: ['/images/Activity-Kids/ACTIVITY_KIDS_ABAD-17.png', '/images/Activity-Kids/ACTIVITY_KIDS_ABAD-18.png'] },
+          { type: 'images-grid', images: ['/images/Activity-Kids/ACTIVITY_KIDS_ABAD-19.png', '/images/Activity-Kids/ACTIVITY_KIDS_ABAD-20.png'] },
+          { type: 'images-grid', images: ['/images/Activity-Kids/ACTIVITY_KIDS_ABAD-21.png', '/images/Activity-Kids/ACTIVITY_KIDS_ABAD-22.png'] },
+          { type: 'images-full', images: ['/images/Activity-Kids/ACTIVITY_KIDS-06.png'] },
         ]
       },
     ],
