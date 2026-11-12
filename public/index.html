@@ -714,7 +714,7 @@ body,.prose,.prose p,.op-sec,.op-topbar,.svc-list li{font-family:'Bricolage Grot
 <script>
 /* hero background: random typography-free project images, crossfading */
 (function(){
-  const LIST=["media/soft-matter/11.jpg", "media/soft-matter/08.jpg", "media/soft-matter/26.jpg", "media/soft-matter/30.jpg", "media/simpsons/01.jpg", "media/simpsons/04.jpg", "media/simpsons/09.jpg", "media/pink-forms/01.jpg", "media/pink-forms/15.jpg", "media/onshoes/08.jpg", "media/bmw/04.jpg", "media/bmw/13.jpg", "media/bmw/27.jpg", "media/lebron/03.jpg", "media/lebron/06.jpg"];
+  const LIST=["media/soft-matter/11.jpg", "media/soft-matter/08.jpg", "media/soft-matter/26.jpg", "media/soft-matter/30.jpg", "media/simpsons/01.jpg", "media/simpsons/04.jpg", "media/simpsons/09.jpg", "media/pink-forms/01.jpg", "media/pink-forms/15.jpg", "media/onshoes/08.jpg", "media/bmw/13.jpg", "media/bmw/27.jpg", "media/lebron/03.jpg", "media/lebron/06.jpg"];
   const box=document.querySelector('#hero .hero-bg'); if(!box) return;
   const ims=box.querySelectorAll('img'); let cur=0;
   const order=LIST.slice(); for(let i=order.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[order[i],order[j]]=[order[j],order[i]];}
