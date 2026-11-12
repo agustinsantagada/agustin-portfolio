@@ -505,6 +505,12 @@ body,.prose,.prose p,.op-sec,.op-topbar,.svc-list li{font-family:'Bricolage Grot
   padding:100px 0 0;
   background:#0d0d0d;color:#f4f1ea;
 }
+#hero .hero-bg{position:absolute;inset:0;z-index:0;background:#0d0d0d;overflow:hidden;}
+#hero .hero-bg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.6s ease;will-change:opacity;}
+#hero .hero-bg img.on{opacity:1;}
+#hero .hero-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.72) 0%,rgba(0,0,0,.28) 45%,rgba(0,0,0,.18) 100%);}
+#hero .hero-meta,#hero .hero-name{position:relative;z-index:1;}
+#hero .hero-meta{position:absolute;}
 #hero .hero-meta{
   position:absolute;top:clamp(16px,2.6vw,30px);left:clamp(16px,4vw,44px);right:auto;
   display:flex;flex-direction:column;align-items:flex-start;text-align:left;gap:2px;
@@ -696,6 +702,7 @@ body,.prose,.prose p,.op-sec,.op-topbar,.svc-list li{font-family:'Bricolage Grot
 
 <!-- HERO -->
 <section id="hero">
+  <div class="hero-bg" aria-hidden="true"><img alt=""><img alt=""></div>
   <div class="hero-meta">
     <span id="heroDate">—</span>
     <span id="heroCity">Madrid</span>
@@ -704,6 +711,24 @@ body,.prose,.prose p,.op-sec,.op-topbar,.svc-list li{font-family:'Bricolage Grot
   <h1 class="hero-name"><span>Agustin</span> <span>Santagada</span></h1>
 </section>
 
+<script>
+/* hero background: random typography-free project images, crossfading */
+(function(){
+  const LIST=["media/soft-matter/11.jpg", "media/soft-matter/08.jpg", "media/soft-matter/26.jpg", "media/soft-matter/30.jpg", "media/simpsons/01.jpg", "media/simpsons/04.jpg", "media/simpsons/09.jpg", "media/pink-forms/01.jpg", "media/pink-forms/15.jpg", "media/onshoes/08.jpg", "media/bmw/04.jpg", "media/bmw/13.jpg", "media/bmw/27.jpg", "media/lebron/03.jpg", "media/lebron/06.jpg"];
+  const box=document.querySelector('#hero .hero-bg'); if(!box) return;
+  const ims=box.querySelectorAll('img'); let cur=0;
+  const order=LIST.slice(); for(let i=order.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[order[i],order[j]]=[order[j],order[i]];}
+  let k=0;
+  function showNext(){
+    const src=order[k%order.length]; k++;
+    const nxt=ims[1-cur], old=ims[cur];
+    const pre=new Image(); pre.onload=()=>{ nxt.src=src; nxt.classList.add('on'); old.classList.remove('on'); cur=1-cur; }; pre.src=src;
+  }
+  showNext();
+  const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!reduce) setInterval(showNext, 7000);
+})();
+</script>
 <!-- ABOUT -->
 <section id="about" class="op-sec">
   <h2 class="about-hi">Hi,</h2>
