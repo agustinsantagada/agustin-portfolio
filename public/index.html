@@ -1350,9 +1350,11 @@ function buildGrid(key){
 /* ================= WORK gallery (all projects, hover overlay, click = detail) ================= */
 /* custom display order for the work grid (unlisted projects keep their natural order after these) */
 const WORK_ORDER = ['Soft Matter Playground', 'Simpsons', 'MoccaUp | Specialty Coffee', 'Apunt', 'Xiaomi Wallpapers', 'On | Cloudrunner 3 Max', 'Olaf Beer Bar', 'LogoFolio | Brand Marks', 'Nike | LeBron James Shoes', 'BMW | M4 Competition'];   /* poné acá los títulos en el orden que quieras destacarlos */
+/* projects hidden from the grid and prev/next navigation (content kept) */
+const HIDDEN_PROJECTS = new Set(['Nike | by You']);
 function orderedProjects(){
   const all = [];
-  ['ux','design'].forEach(k => (PROJECTS[k]||[]).forEach((p,i) => all.push([k,i])));
+  ['ux','design'].forEach(k => (PROJECTS[k]||[]).forEach((p,i) => { if(!HIDDEN_PROJECTS.has(p.title)) all.push([k,i]); }));
   const titleOf = ([k,i]) => (PROJECTS[k][i].title || '');
   return all
     .map((e, orig) => ({ e, r: (WORK_ORDER.indexOf(titleOf(e)) >= 0 ? WORK_ORDER.indexOf(titleOf(e)) : 1000 + orig) }))
